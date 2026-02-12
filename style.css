@@ -43,14 +43,12 @@ img {
 }
 
 .button-container {
-    display: block;
+    display: flex;
     justify-content: center;
     margin: 55px 30px;
 }
 
 .btn {
-    width: 90%;
-    max-width: 200px;
     display: inline-block;
     padding: 15px 70px;
     background-color: #ff4d8d;
