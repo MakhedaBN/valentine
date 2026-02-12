@@ -109,7 +109,8 @@ footer {
         margin: 15px auto;
         line-height: 1.4;
     }
-
+    
+    /* image style */
     img {
         width: 90%;
         max-width: 300px;
@@ -128,8 +129,8 @@ footer {
     }
 
     footer {
-        font-size: 0.95em;
-        padding: 15px 0;
+        font-size: 1em;
+        padding: 14px 0;
     }
 }
 
@@ -149,10 +150,9 @@ footer {
 
     /* Footer smaller text and padding */
     footer {
-        font-size: 0.95em;
-        padding: 15px 0;
+        font-size: 1em;
+        padding: 14px 0;
     }
-
 
 
 
