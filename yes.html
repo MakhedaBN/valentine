@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="yes.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Yes!!</title>
+    </head>
+    <body>
+        <h1>I love you❤️</h1>
+
+        <p>Yayy!!💖</p>
+
+        <video id="valentineVideo" src="images/love_me.mp4" loop playsinline></video>
+        <button id="playSound">Play Video with Sound</button>
+
+        <script>
+        document.getElementById('playSound').addEventListener('click', () => {
+            const video = document.getElementById('valentineVideo');
+            video.muted = false;    // unmute
+            video.play();           // play video with sound
+            document.getElementById('playSound').style.display = 'none'; // hide button
+    });
+
+        </script>
+        <footer>See You Soon</footer>
+        <script src="interaction.js"></script>
+    </body>
+</html>
